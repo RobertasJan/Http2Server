@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.352
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Http2Server", "Http2Server\Http2Server.csproj", "{B71F697E-3AF5-45CB-9F34-A5E44EBB2164}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Http2ServerTests", "Http2ServerTests\Http2ServerTests.csproj", "{A0F08F5D-4BBF-417F-85F9-74BCA5CE5538}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B71F697E-3AF5-45CB-9F34-A5E44EBB2164}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B71F697E-3AF5-45CB-9F34-A5E44EBB2164}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B71F697E-3AF5-45CB-9F34-A5E44EBB2164}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B71F697E-3AF5-45CB-9F34-A5E44EBB2164}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0F08F5D-4BBF-417F-85F9-74BCA5CE5538}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0F08F5D-4BBF-417F-85F9-74BCA5CE5538}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0F08F5D-4BBF-417F-85F9-74BCA5CE5538}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0F08F5D-4BBF-417F-85F9-74BCA5CE5538}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F9CCB126-B958-48DD-B9E3-83DA5C646A27}
+	EndGlobalSection
+EndGlobal
