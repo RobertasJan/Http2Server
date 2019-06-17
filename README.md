@@ -1,13 +1,14 @@
 # Http2Server
-Http2Server example with file download api
+Http2Server example with file download api.
 
-Implementation in Http2Server
-Tests in Http2ServerTests
+Implementation is in Http2Server.
+
+Tests are in Http2ServerTests.
 
 API test files in Http2Server/MyFiles.
 API currently supports only .png and .txt files.
 
-use https://localhost:44301/test.txt to test FileController method GET
+Use https://localhost:44301/test.txt to test FileController method GET
 
 File extensions supportability is defined in Http2Server/Common/Classes/FileContentTypeManager.cs
 
